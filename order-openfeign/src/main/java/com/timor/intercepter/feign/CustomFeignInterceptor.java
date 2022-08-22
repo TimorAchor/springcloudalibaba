@@ -16,7 +16,7 @@ public class CustomFeignInterceptor implements RequestInterceptor {
 
         requestTemplate.header("xxx","xxx");
         requestTemplate.query("id","123");
-//        requestTemplate.uri("/9");
+        requestTemplate.uri("/9");
         logger.info("feign拦截器");
 
     }
